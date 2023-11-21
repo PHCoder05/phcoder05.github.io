@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <style>
+        .a {
+            color: white;
+        }
+
+        .b {
+            color: white;
+        }
+
+        .centered-image {
+            display: block;
+            margin: 0 auto;
+
+        }
+
+        body {
+            background-color: black;
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+
+        }
+
+        .center-line {
+            position: absolute;
+            width: 5px;
+            height: 100%;
+            background-color: #fff;
+            /* Color of the center line */
+            left: 25%;
+            transform: translateX(-50%);
+        }
+
+        .login-container {
+            background-color: rgba(0, 0, 0, 1);
+            /* Semi-transparent black background */
+            border: 5px;
+
+            text-align: center;
+            padding: 20px;
+
+
+        }
+
+        .input-container {
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            /* Added margin to center the input boxes */
+            border: 1px solid #e0e0e0;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color: #4285f4;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer ;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #357ae8;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            /* Adjust this value to control the vertical position */
+            left: 10px;
+            /* Adjust this value to control the horizontal position */
+            max-height: 80px;
+            /* Adjust the maximum height as needed */
+            margin-top: 12px;
+
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="Darpan\darpan-high-resolution-logo-transparent (3).png" alt="Logo" class="logo">
+    <!-- Add your logo here -->
+    <div class="center-line"></div> <!-- Add the center line here -->
+    <div class="login-container">
+
+        <h1 class="a">Login to your account</h1>
+        <h3 class="b">Let's get started!</h3>
+
+            <input type="text" id="rbt_number" name="rbt_number" placeholder="RBT Number" required>
+            <br><br>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <br><br>
+            <input type="text" id="year" name="year" placeholder="Year of Studying" required>
+            <br><br>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <br><br>
+            <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+            <br><br>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <br><br>
+            <a href="homepage+post.html">
+                <button>Login</button>
+            </a>
+        </form>
+    </div>
+    <img src="Darpan\DARPAN.png" alt="Your Image" class="centered-image">>
+
+</body>
+
+</html>
